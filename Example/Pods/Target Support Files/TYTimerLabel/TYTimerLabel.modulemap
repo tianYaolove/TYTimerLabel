@@ -1,0 +1,6 @@
+framework module TYTimerLabel {
+  umbrella header "TYTimerLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

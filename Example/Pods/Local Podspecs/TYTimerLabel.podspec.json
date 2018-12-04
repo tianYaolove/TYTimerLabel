@@ -1,0 +1,21 @@
+{
+  "name": "TYTimerLabel",
+  "version": "0.1.0",
+  "summary": "A short description of TYTimerLabel.",
+  "homepage": "https://github.com/963487409@qq.com/TYTimerLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tianyao": "963487409@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/963487409@qq.com/TYTimerLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TYTimerLabel/Classes/**/*"
+}

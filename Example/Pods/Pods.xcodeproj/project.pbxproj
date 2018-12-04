@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F25DD3D784880271BC960FA93BFA8A /* Pods-TYTimerLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6982D835223BDDF8ED056FA514EEF8 /* Pods-TYTimerLabel_Tests-dummy.m */; };
+		198C788846940AF71B9BBEE251DEBFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2409635BF05C78AE8E04E67C27C71C9A /* Pods-TYTimerLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC38605BF01CD78C0E680481F2083BD7 /* Pods-TYTimerLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79969495D8BBE58115CA26B882810C07 /* Pods-TYTimerLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6018D2E603D98EA39E0E487EC0F106CE /* Pods-TYTimerLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8941F431197D2747114A1DF30750F64E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A5944A0F4489C31F6A1F063400B300AD /* TYTimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4733DA2A5D3800FB72172443AAB4A15 /* TYTimerLabel.swift */; };
+		AF1C428CB368E7E47467130F654256F6 /* TYTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F2A8B3788AB00663C0A054C03859B0 /* TYTimerLabel-dummy.m */; };
+		C5F549F47A12E09B4FD203F84BDCF095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5A30F3ABDED0A8C7FEFB567ADE72C7F /* Pods-TYTimerLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 688887614A879408D60FF38A08AA0141 /* Pods-TYTimerLabel_Example-dummy.m */; };
+		FD6BF855ACB10461B5F29772275A3130 /* TYTimerLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D2F9277BC33EC5EC62EA702E1833D6 /* TYTimerLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB2DE1592A1142F9057195F44D68633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7503BDE5A17CFB9351EEC1C59399539;
+			remoteInfo = TYTimerLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F20055F5A1F4462C217EB80E77DEC7 /* Pods_TYTimerLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYTimerLabel_Tests.framework; path = "Pods-TYTimerLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25061548AB128B1A108914FCC5726788 /* Pods-TYTimerLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYTimerLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B09FEB1C7BD7B3B894A0E1615F46874 /* Pods-TYTimerLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTimerLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2DA319EC3F675A690AC73DCC6320C9CB /* Pods-TYTimerLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYTimerLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		33A7C40E58F4E2F5BA511550833B8D6F /* TYTimerLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TYTimerLabel.modulemap; sourceTree = "<group>"; };
+		44F98162A401EDF127C6815E5B4A8C12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6982D835223BDDF8ED056FA514EEF8 /* Pods-TYTimerLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYTimerLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		6018D2E603D98EA39E0E487EC0F106CE /* Pods-TYTimerLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYTimerLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		65A12A1F0CC9990C67C13918B0AA72D6 /* Pods-TYTimerLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYTimerLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		688887614A879408D60FF38A08AA0141 /* Pods-TYTimerLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYTimerLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		74D2F9277BC33EC5EC62EA702E1833D6 /* TYTimerLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYTimerLabel-umbrella.h"; sourceTree = "<group>"; };
+		76DCD237DFE62010213EB23BC1683426 /* Pods-TYTimerLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTimerLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		87F2A8B3788AB00663C0A054C03859B0 /* TYTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYTimerLabel-dummy.m"; sourceTree = "<group>"; };
+		8D5D5C3F0046972A383A498B2256BD0B /* Pods-TYTimerLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYTimerLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8DCAF2D357CEAD8522BA70B487B0F3DF /* Pods_TYTimerLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYTimerLabel_Example.framework; path = "Pods-TYTimerLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		917C6467BD1A22F242DCAFCA02439703 /* Pods-TYTimerLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYTimerLabel_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DD81EF3890D5DDB924B802D1471239 /* Pods-TYTimerLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYTimerLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A2C07695BFA27561573FEB484BF7FB2 /* TYTimerLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYTimerLabel-prefix.pch"; sourceTree = "<group>"; };
+		9DDF53E5F9292CEF1D6EFEC81AFDB03A /* Pods-TYTimerLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYTimerLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		A8E6998A1ED9900E836F4673E0F359E9 /* Pods-TYTimerLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYTimerLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B4D48989E0AC49BD8E60337DDB02CAFB /* TYTimerLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYTimerLabel.xcconfig; sourceTree = "<group>"; };
+		C4733DA2A5D3800FB72172443AAB4A15 /* TYTimerLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYTimerLabel.swift; path = TYTimerLabel/Classes/TYTimerLabel.swift; sourceTree = "<group>"; };
+		D01498726B9269AD315FFB92BEF43597 /* Pods-TYTimerLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYTimerLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCA3807F7567935AB4F51FAE11F7FD08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E501AF783779AFBB4F76195E86FEA134 /* Pods-TYTimerLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYTimerLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		E756DDFA41314621DFAA2BB846B77D58 /* Pods-TYTimerLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTimerLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EAC85C7B7DE943461963927D00FDC7CB /* TYTimerLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYTimerLabel.framework; path = TYTimerLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC38605BF01CD78C0E680481F2083BD7 /* Pods-TYTimerLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYTimerLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EF65CD8980927D893518BCA8E9FAB93D /* Pods-TYTimerLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTimerLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4AE0AEEF2459B31F01DD83C8B37E27D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC6D4C77C34920740294737FEE7D0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8941F431197D2747114A1DF30750F64E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB116A320D00812F291F76FD880B354D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198C788846940AF71B9BBEE251DEBFD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9033ED2CB1E13609C9D437EF107FAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F549F47A12E09B4FD203F84BDCF095 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12938040342FBEF0F8ADB68519AD8BDF /* TYTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C4733DA2A5D3800FB72172443AAB4A15 /* TYTimerLabel.swift */,
+				21D45847CECC6D1E54557E0B414F1ADE /* Support Files */,
+			);
+			name = TYTimerLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21D45847CECC6D1E54557E0B414F1ADE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3807F7567935AB4F51FAE11F7FD08 /* Info.plist */,
+				33A7C40E58F4E2F5BA511550833B8D6F /* TYTimerLabel.modulemap */,
+				B4D48989E0AC49BD8E60337DDB02CAFB /* TYTimerLabel.xcconfig */,
+				87F2A8B3788AB00663C0A054C03859B0 /* TYTimerLabel-dummy.m */,
+				9A2C07695BFA27561573FEB484BF7FB2 /* TYTimerLabel-prefix.pch */,
+				74D2F9277BC33EC5EC62EA702E1833D6 /* TYTimerLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYTimerLabel";
+			sourceTree = "<group>";
+		};
+		5636D3F231BB0BB7CDBC2D39D2C5B118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCAF2D357CEAD8522BA70B487B0F3DF /* Pods_TYTimerLabel_Example.framework */,
+				05F20055F5A1F4462C217EB80E77DEC7 /* Pods_TYTimerLabel_Tests.framework */,
+				EAC85C7B7DE943461963927D00FDC7CB /* TYTimerLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1CB643B527D491726B530C3D6AC31C /* Pods-TYTimerLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AE0AEEF2459B31F01DD83C8B37E27D /* Info.plist */,
+				65A12A1F0CC9990C67C13918B0AA72D6 /* Pods-TYTimerLabel_Tests.modulemap */,
+				94DD81EF3890D5DDB924B802D1471239 /* Pods-TYTimerLabel_Tests-acknowledgements.markdown */,
+				25061548AB128B1A108914FCC5726788 /* Pods-TYTimerLabel_Tests-acknowledgements.plist */,
+				4F6982D835223BDDF8ED056FA514EEF8 /* Pods-TYTimerLabel_Tests-dummy.m */,
+				8D5D5C3F0046972A383A498B2256BD0B /* Pods-TYTimerLabel_Tests-frameworks.sh */,
+				9DDF53E5F9292CEF1D6EFEC81AFDB03A /* Pods-TYTimerLabel_Tests-resources.sh */,
+				EC38605BF01CD78C0E680481F2083BD7 /* Pods-TYTimerLabel_Tests-umbrella.h */,
+				EF65CD8980927D893518BCA8E9FAB93D /* Pods-TYTimerLabel_Tests.debug.xcconfig */,
+				2B09FEB1C7BD7B3B894A0E1615F46874 /* Pods-TYTimerLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-TYTimerLabel_Tests";
+			path = "Target Support Files/Pods-TYTimerLabel_Tests";
+			sourceTree = "<group>";
+		};
+		75FECEC3F55B69F3350D120E178D3ADF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE02A806B20F4EA18E50A9EF815271E /* Pods-TYTimerLabel_Example */,
+				6F1CB643B527D491726B530C3D6AC31C /* Pods-TYTimerLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F5E1FD104470A5608D1C6D7B7EBBB3DC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5636D3F231BB0BB7CDBC2D39D2C5B118 /* Products */,
+				75FECEC3F55B69F3350D120E178D3ADF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE02A806B20F4EA18E50A9EF815271E /* Pods-TYTimerLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				44F98162A401EDF127C6815E5B4A8C12 /* Info.plist */,
+				917C6467BD1A22F242DCAFCA02439703 /* Pods-TYTimerLabel_Example.modulemap */,
+				D01498726B9269AD315FFB92BEF43597 /* Pods-TYTimerLabel_Example-acknowledgements.markdown */,
+				2DA319EC3F675A690AC73DCC6320C9CB /* Pods-TYTimerLabel_Example-acknowledgements.plist */,
+				688887614A879408D60FF38A08AA0141 /* Pods-TYTimerLabel_Example-dummy.m */,
+				A8E6998A1ED9900E836F4673E0F359E9 /* Pods-TYTimerLabel_Example-frameworks.sh */,
+				E501AF783779AFBB4F76195E86FEA134 /* Pods-TYTimerLabel_Example-resources.sh */,
+				6018D2E603D98EA39E0E487EC0F106CE /* Pods-TYTimerLabel_Example-umbrella.h */,
+				76DCD237DFE62010213EB23BC1683426 /* Pods-TYTimerLabel_Example.debug.xcconfig */,
+				E756DDFA41314621DFAA2BB846B77D58 /* Pods-TYTimerLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-TYTimerLabel_Example";
+			path = "Target Support Files/Pods-TYTimerLabel_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5E1FD104470A5608D1C6D7B7EBBB3DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12938040342FBEF0F8ADB68519AD8BDF /* TYTimerLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CE5A2B2A7AF3B4ECC5963C9DF96660E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79969495D8BBE58115CA26B882810C07 /* Pods-TYTimerLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A98EB25A03323367499C664F8F21618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2409635BF05C78AE8E04E67C27C71C9A /* Pods-TYTimerLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF6CBAA57E180DE48031261E96A403C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6BF855ACB10461B5F29772275A3130 /* TYTimerLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		615E8FDE90B13C2E161A9431B700CD43 /* Pods-TYTimerLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FB7DE442290D2C3C758280EE64B551 /* Build configuration list for PBXNativeTarget "Pods-TYTimerLabel_Tests" */;
+			buildPhases = (
+				25246F88FC28BDD10D7CBB8AF9F80A41 /* Sources */,
+				0EC6D4C77C34920740294737FEE7D0A5 /* Frameworks */,
+				5A98EB25A03323367499C664F8F21618 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TYTimerLabel_Tests";
+			productName = "Pods-TYTimerLabel_Tests";
+			productReference = 05F20055F5A1F4462C217EB80E77DEC7 /* Pods_TYTimerLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		770B13A4742C62A07B5BA65326FF697C /* Pods-TYTimerLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD6C5FAB57B895798390603B1BB6416 /* Build configuration list for PBXNativeTarget "Pods-TYTimerLabel_Example" */;
+			buildPhases = (
+				A28035D58904AF1D1FA3D8C392E8918F /* Sources */,
+				F9033ED2CB1E13609C9D437EF107FAB3 /* Frameworks */,
+				3CE5A2B2A7AF3B4ECC5963C9DF96660E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F21C617C3A953DE52322F7A09F7A8E /* PBXTargetDependency */,
+			);
+			name = "Pods-TYTimerLabel_Example";
+			productName = "Pods-TYTimerLabel_Example";
+			productReference = 8DCAF2D357CEAD8522BA70B487B0F3DF /* Pods_TYTimerLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7503BDE5A17CFB9351EEC1C59399539 /* TYTimerLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C6C6617383D154DAA183936EA9D0A3 /* Build configuration list for PBXNativeTarget "TYTimerLabel" */;
+			buildPhases = (
+				7D26DDF80360409D00BDE357F8156F20 /* Sources */,
+				DB116A320D00812F291F76FD880B354D /* Frameworks */,
+				FAF6CBAA57E180DE48031261E96A403C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYTimerLabel;
+			productName = TYTimerLabel;
+			productReference = EAC85C7B7DE943461963927D00FDC7CB /* TYTimerLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5636D3F231BB0BB7CDBC2D39D2C5B118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770B13A4742C62A07B5BA65326FF697C /* Pods-TYTimerLabel_Example */,
+				615E8FDE90B13C2E161A9431B700CD43 /* Pods-TYTimerLabel_Tests */,
+				D7503BDE5A17CFB9351EEC1C59399539 /* TYTimerLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25246F88FC28BDD10D7CBB8AF9F80A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F25DD3D784880271BC960FA93BFA8A /* Pods-TYTimerLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D26DDF80360409D00BDE357F8156F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1C428CB368E7E47467130F654256F6 /* TYTimerLabel-dummy.m in Sources */,
+				A5944A0F4489C31F6A1F063400B300AD /* TYTimerLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28035D58904AF1D1FA3D8C392E8918F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A30F3ABDED0A8C7FEFB567ADE72C7F /* Pods-TYTimerLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F21C617C3A953DE52322F7A09F7A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYTimerLabel;
+			target = D7503BDE5A17CFB9351EEC1C59399539 /* TYTimerLabel */;
+			targetProxy = 7FB2DE1592A1142F9057195F44D68633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41CBAF93E6BE13FB60E671CC5AB03D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D48989E0AC49BD8E60337DDB02CAFB /* TYTimerLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TYTimerLabel/TYTimerLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYTimerLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYTimerLabel/TYTimerLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TYTimerLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D8A2A544560252CA14CF81345FB5EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D48989E0AC49BD8E60337DDB02CAFB /* TYTimerLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TYTimerLabel/TYTimerLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYTimerLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYTimerLabel/TYTimerLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TYTimerLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FEFA4F8E4CEF4FFFAF2A07D990F4FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B09FEB1C7BD7B3B894A0E1615F46874 /* Pods-TYTimerLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTimerLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTimerLabel_Tests/Pods-TYTimerLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYTimerLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E7D237B96FDAE8D0036E0C3C1B2E961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF65CD8980927D893518BCA8E9FAB93D /* Pods-TYTimerLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTimerLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTimerLabel_Tests/Pods-TYTimerLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYTimerLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9960491774427392CDB4270E2321C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E756DDFA41314621DFAA2BB846B77D58 /* Pods-TYTimerLabel_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTimerLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTimerLabel_Example/Pods-TYTimerLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYTimerLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB8DB1EEE040CEE75201837A030CCC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DCD237DFE62010213EB23BC1683426 /* Pods-TYTimerLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTimerLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTimerLabel_Example/Pods-TYTimerLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYTimerLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FB7DE442290D2C3C758280EE64B551 /* Build configuration list for PBXNativeTarget "Pods-TYTimerLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7D237B96FDAE8D0036E0C3C1B2E961 /* Debug */,
+				8FEFA4F8E4CEF4FFFAF2A07D990F4FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD6C5FAB57B895798390603B1BB6416 /* Build configuration list for PBXNativeTarget "Pods-TYTimerLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8DB1EEE040CEE75201837A030CCC1B /* Debug */,
+				A9960491774427392CDB4270E2321C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C6C6617383D154DAA183936EA9D0A3 /* Build configuration list for PBXNativeTarget "TYTimerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CBAF93E6BE13FB60E671CC5AB03D76 /* Debug */,
+				4D8A2A544560252CA14CF81345FB5EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
