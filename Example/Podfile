@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TYTimerLabel_Example' do
+  pod 'TYTimerLabel', :path => '../'
+
+  target 'TYTimerLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
